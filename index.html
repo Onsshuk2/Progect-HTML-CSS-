@@ -13,7 +13,7 @@
 }
     body
 {
-    background-image: url(Foto/photo_proget1.jpg);
+    background-image: url('https://github.com/Onsshuk2/Progect-HTML-CSS-/blob/main/Foto/photo_proget1.jpg?raw=true');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -24,12 +24,14 @@
     height:10%;
     display: flex;
 }
-.info
+.info, a
 {
   margin: auto 50px; 
   padding: 15px;
+  color: black;
+  text-decoration: none;
 }
-.info:hover
+a:hover
 {
     text-decoration: underline;
 }
@@ -52,7 +54,7 @@
     height: 100px;
     margin-left: 95px;
 }
-img
+a img
 {
 width: 30px;
 height: 30px;
@@ -64,15 +66,27 @@ margin: 10px 80px;
 <div> 
     <header class="menu"> 
         <div class="info1">IRA ONISHCHUK</div>
-        <div class="info">Biography</div>
-        <div class="info">Hobby</div>
+        <a href="#">
+            Biography
+        </a>
+        <a href="#">
+            Hobby
+        </a>
+        <a href="#">
         <div class="info">Gallery</div>
+        </a>
     </header>
     <aside class="left">
         <div class="vertical-line1"></div>
-        <div> <img src="Foto/github-original-wordmark.256x253.png" alt="Git Hab"></div>
-        <div> <img src="Foto/instagram-fill.256x256.png" alt="Instagram"></div>
-        <div> <img src="Foto/telegraph.256x256.png" alt="Telegram"></div>
+        <a href="https://github.com">
+            <div> <img src="https://github.com/Onsshuk2/Progect-HTML-CSS-/blob/main/Foto/github-original-wordmark.256x253.png?raw=true" alt="GitHub"></div>
+        </a>
+        <a href="https://www.instagram.com/onisshchuk/?igsh=eWJyc3RlYzR6ZzRs&utm_source=qr">
+             <div> <img src="https://github.com/Onsshuk2/Progect-HTML-CSS-/blob/main/Foto/instagram-fill.256x256.png?raw=true" alt="Instagram"></div>
+        </a>
+        <a href="https://t.me/Ira_Onisshchuk">
+            <div> <img src="https://github.com/Onsshuk2/Progect-HTML-CSS-/blob/main/Foto/telegraph.256x256.png?raw=true" alt="Telegram"></div>
+        </a>
         <div class="vertical-line2"></div>
         
         
